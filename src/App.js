@@ -1,6 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
-import HeroSections  from './Components/HeroSections';
+import './App.scss';
+import HeroSections  from '../src/Components/HeroSections';
 import { Container } from 'react-bootstrap';
 
 function App() {

@@ -14,7 +14,7 @@ const HeroSections =() => {
                             Teks mbi foto, histori, pasion etj etj {""}
                         </p>
                     </div>
-                    <div className="bnts-wrapper">
+                    <div className="btns-wrapper">
                         <a href="///">read my blog</a>
                         <Button variant="sencondary">Learn more</Button>
                     </div>
@@ -22,7 +22,7 @@ const HeroSections =() => {
 
                 <Col xs md="4">
                     <div className="img-wrapper">
-
+   
                     </div>
                 </Col>
 
