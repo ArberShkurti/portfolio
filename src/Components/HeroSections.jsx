@@ -16,7 +16,7 @@ const HeroSections =() => {
                     </div>
                     <div className="btns-wrapper">
                         <a href="///">read my blog</a>
-                        <Button variant="sencondary">Learn more</Button>
+                        <Button variant="secondary">Learn more</Button>
                     </div>
                 </Col>
 
