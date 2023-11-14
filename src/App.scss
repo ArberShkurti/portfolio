@@ -48,18 +48,51 @@ p, a {
   width: 20px;
   height: 20px;
   color : black;
+  border: 0;
   background-color: white;
   margin: 20px;
 
-  .margin-icon-container (
+
+  .menu-icon-container {
     position: absolute;
     width: 10px;
     transform : translate(-50%, -50%);
     left : 50%;
+    top: 50%;
 
-  )
+    span {
+      background-color: #161412;
+      position: absolute;
+      height: 2px;
+      transition-duration: 300ms;
+      transition-property: trasform;
+      transition-timing-function: easy-in-out;
+    }
+    .icon-line{
+      width: 30px;
+    }
+
+    icon-line:fist-child {
+      top: 0px;
+      transform: translate(-0.375rem);
+
+    }
+
+    icon-line:nth-child(2) {
+      top: 2px;
+      transition-property: 3all;
+      transition-duration: 300ms;   
+      transition-delay: 200ms;   
+      opacity: 1;
+    }
 
 
+    icon-line:last-child {
+      top: 6px;
+      transform: translate(0.375rem);
+    }
 
-  ;
+
+}
+
 }

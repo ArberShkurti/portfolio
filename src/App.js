@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
+        <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
         <HeroSections />
       </Container>
       
