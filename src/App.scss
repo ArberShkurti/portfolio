@@ -72,14 +72,14 @@ p, a {
       width: 30px;
     }
 
-    icon-line:fist-child {
+    .icon-line:fist-child {
       top: 0px;
       transform: translate(-0.375rem);
 
     }
 
-    icon-line:nth-child(2) {
-      top: 2px;
+    .icon-line:nth-child(2) {
+      top: 5px;
       transition-property: 3all;
       transition-duration: 300ms;   
       transition-delay: 200ms;   
@@ -87,12 +87,36 @@ p, a {
     }
 
 
-    icon-line:last-child {
-      top: 6px;
-      transform: translate(0.375rem);
+    .icon-line:last-child {
+      top: 5px;
+      transform: translateY(0.375rem);
     }
-
-
 }
+
+        &.expanded {
+          background-color: #161412;
+          
+        
+
+        span {
+          background-color: white;
+        }
+       
+
+        .icon-line:first-child {
+          transform: translateY(3px) rotate(135deg);
+          transition-delay: 200ms; 
+        }
+
+        .icon-line:nth-child(2) {
+          width: 0;
+          opacity: 0.5;
+        }
+
+        .icon-line:last-child {
+          transform: translateY(-3px) rotate(-135deg);
+          transition-delay: 200ms; 
+        }
+      }
 
 }
