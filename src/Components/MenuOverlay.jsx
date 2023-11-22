@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuOverlay =({navbarOpen, SetNavbarOpen}) => {
     return (
-        <nav className={`menu-container ${navbarOpen ? 'expanded' : ""}`}>
+        <nav className={`menu-container ${navbarOpen ? "expanded" : ""}`}>
             <ul className="menu-list">
                 <li className="nav-li">
                     <a href="/" className="nav-link" onClick={() => SetNavbarOpen(false)}>Home</a>
@@ -13,8 +13,8 @@ const MenuOverlay =({navbarOpen, SetNavbarOpen}) => {
                 
             </ul>    
          </nav>
-    )
-}
+    );
+};
 
 
 export default MenuOverlay ; 

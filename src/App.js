@@ -1,5 +1,5 @@
 import './App.scss';
-import HeroSections  from '../src/Components/HeroSections';
+import HeroSections from './Components/HeroSections';
 import { Container } from 'react-bootstrap';
 import Header from './Components/Header';
 import MenuOverlay from './Components/MenuOverlay';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Container>
         <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
-        <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}gi />
+        <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
         <HeroSections />
       </Container>
       
