@@ -29,7 +29,7 @@ const HeroSections =() => {
 
             </Row>
         </Container>
-    )
-}
+    );
+};
 
 export default HeroSections;

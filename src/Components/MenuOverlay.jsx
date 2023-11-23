@@ -7,7 +7,7 @@ const MenuOverlay =({navbarOpen, SetNavbarOpen}) => {
                 <li className="nav-li">
                     <a href="/" className="nav-link" onClick={() => SetNavbarOpen(false)}>Home</a>
                 </li>    
-                <li className="nav-li">
+                <li className="nav-li"> 
                     <a href="/" className="nav-link" onClick={() => SetNavbarOpen(false)}>About</a>
                 </li>   
                 
