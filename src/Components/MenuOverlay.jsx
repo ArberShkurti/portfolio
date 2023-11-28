@@ -1,6 +1,6 @@
 import React from "react";
 
-const MenuOverlay =({navbarOpen, SetNavbarOpen}) => {
+const MenuOverlay=({navbarOpen, SetNavbarOpen}) => {
     return (
         <nav className={`menu-container ${navbarOpen ? "expanded" : ""}`}>
             <ul className="menu-list">
