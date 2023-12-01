@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Container>
         <Headerr navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
-        {/* <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} /> */}
+        <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
         <HeroSections />
         <ImagesCollections />
       </Container>

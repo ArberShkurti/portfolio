@@ -1,9 +1,9 @@
 import React from "react";
 
-const Headerr = ({navbarOpen, SetNavbarOpen}) => {
+export const Headerr = ({navbarOpen, setNavbarOpen}) => {
     return (
         <div>
-            <button className={navbarOpen ? 'menu-btn expanded': 'menu-btn'} onClick={()=> SetNavbarOpen((prevNavbarOpen) => !prevNavbarOpen)}>
+            <button className={navbarOpen ? 'menu-btn expanded' : 'menu-btn'} onClick={()=> setNavbarOpen((prevNavbarOpen) => !prevNavbarOpen)}>
                 <div className="menu-icon-container">
                     <span className="icon-line"></span>
                     <span className="icon-line"></span>
