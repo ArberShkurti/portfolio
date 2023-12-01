@@ -130,12 +130,12 @@ p, a {
     color: white;
     transition-property: all;
     transition-duration: 300ms;
-    opacity: 0.9;
+    opacity: 0;
     transform: translateX(-360deg);
 
 
       &.expanded {
-      opacity: 0.1;
+      opacity: 1;
       transform: translateX(0);
       }
     .menu-list {
@@ -150,7 +150,7 @@ p, a {
           
         a {
         color: white;
-        font-size: 36x;
+        font-size: 50px;
         }
           }
 
