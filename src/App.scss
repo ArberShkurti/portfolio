@@ -133,11 +133,11 @@ p, a {
     opacity: 0;
     transform: translateX(-360deg);
 
-
       &.expanded {
       opacity: 1;
       transform: translateX(0);
       }
+      
     .menu-list {
       width: 100%;
       margin-top: 20px;
@@ -153,6 +153,5 @@ p, a {
         font-size: 50px;
         }
           }
-
 }
 
