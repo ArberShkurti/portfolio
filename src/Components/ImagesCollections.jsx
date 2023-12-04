@@ -1,9 +1,8 @@
 import React from "react";
 
 
-const ImagesCollections=()=>{
-    const imagesList = [...new Array(9)].map(
-        (number, index) => `./images/image-${index + 1}.jpg`);
+const ImagesCollections = () => {
+    const imagesList = [...new Array(9)].map((number, index) => `../public/images/image-${index + 1}.jpg`);
         
     
     return (
@@ -11,14 +10,14 @@ const ImagesCollections=()=>{
             {imagesList.map((imgUrl, index) => {
                     return (
                         <li className="item">
-                            <image>
+                            <figure>
                                 <img src={imgUrl} alt="collection" />
-                            </image>
+                            </figure>
                         </li>
                         );
                 })}
                 <div>
-                <img src="/images/image-7.jpg" alt="foto" />
+                <img src="/images/image-6.jpg" alt="foto" />
                 </div>
         </ul>
     );
