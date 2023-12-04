@@ -18,7 +18,7 @@ const ImagesCollections=()=>{
                         );
                 })}
                 <div>
-                    <img src="./images/image-4.jpg" alt="dukettt" />
+                <img src="/images/image-7.jpg" alt="foto" />
                 </div>
         </ul>
     );
