@@ -26,8 +26,7 @@ const HeroSections =() => {
    
                     </div> 
                 </Col>
-
-
+                
             </Row>
         </Container>
     );
