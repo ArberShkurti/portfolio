@@ -15,7 +15,7 @@ const InformationSection = () => {
                 </Col>
                 <Col lg="6" className="px-3">
                     <p>
-                        Misioni im nepermjet fotografise eshte kapja e momenteve dhe 
+                        Misioni im nepermjet fotografise eshte kapja e momenteve dhe ...
                     </p>
                 </Col>
             </Row>
