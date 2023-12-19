@@ -10,6 +10,16 @@ $secondary: #ffffff;
   src: url(./assets/fonts/Forum/Forum-Regular.ttf);
 }
 
+.footer-section {
+  
+  .ikona {
+  height: 100%;
+  background-image: url('../public/icons/1.png');
+  background-size: cover;
+  background-position: center;
+    }
+}
+
 .hero-sections-container {
   background-color: #161412;
   height: 300px;

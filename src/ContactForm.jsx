@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import { ReactComponent as RightArrowIcon } from './assets/icons/1.png';
+// import { ReactComponent as RightArrowIcon } from './assets/icons/1.png';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
@@ -25,7 +25,7 @@ const ContactForm = () => {
         <form ref={form} onSubmit={sendEmail}>
             <div className='email-input d-flex'>
                 <input type="email" placeholder='Your email'></input>
-                <button type='submit'><RightArrowIcon height={20}/></button>
+                {/* <button type='submit'><RightArrowIcon height={20}/></button> */}
             </div>
         </form>
         <p>

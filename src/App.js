@@ -7,6 +7,7 @@ import MenuOverlay from './Components/MenuOverlay';
 import { useState } from 'react';
 import ImagesCollections from './Components/ImagesCollections';
 import InformationSection from './Components/InformationSection';
+import ContactForm from './ContactForm';
 import FooterMenu from './Components/FooterMenu';
 import React from 'react';
 
@@ -23,6 +24,13 @@ function App() {
         <Container className='footer-section'>
           <Row>
             <Col>
+            <div className='ikona'>
+            </div>
+            </Col>
+          </Row>
+          <Row className='my-3'>
+            <Col>
+            <ContactForm />
             <FooterMenu />
             </Col>
           </Row>
