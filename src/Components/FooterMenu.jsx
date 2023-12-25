@@ -7,7 +7,7 @@ const FooterMenu = () => {
         <Container className='footer'>
             <Row>
                 <Col>
-                <h3>Company</h3>
+                    <h3>Company</h3>
                 <ul>
                     <li> <a href="-">About</a></li>
                     <li> <a href="-">Collections</a></li>
