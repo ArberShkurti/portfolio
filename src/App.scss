@@ -13,7 +13,8 @@ $secondary: #ffffff;
 .footer-section {
   
   .ikona {
-  height: 100%;
+  width: 400px;
+  height: 200px;
   background-image: url('../public/icons/1.png');
   background-size: cover;
   background-position: center;
@@ -129,7 +130,8 @@ p, a {
 }
 
 .menu-container {
-    display: flex;
+    // display: flex;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -146,6 +148,7 @@ p, a {
     transform: translateX(-360deg);
 
       &.expanded {
+      display: block;
       opacity: 1;
       transform: translateX(0);
       }
@@ -217,6 +220,26 @@ p, a {
     line-height: 1.5;
   }
 
+}
+
+.contact-form-section-container {
+  h1, span {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  span {
+    font-weight: 700;
+  }
+
+  .email-input {
+    width: 400px;
+    margin: 1.25rem 0;
+    border-bottom: 2px solid #161412;
+
+    input {
+      width: 100%;
+      border: none;
+    }
+  }
 }
 
 .footer-section {

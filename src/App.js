@@ -23,11 +23,9 @@ function App() {
         <ImagesCollections />
         <Container className='footer-section'>
           <Row>
-            <Col>
             <div className='ikona'>
-              <img src='' alt="logo canva"></img>
+              <img src='' alt=""></img>
             </div>
-            </Col>
           </Row>
           <Row className='my-3'>
             <Col>

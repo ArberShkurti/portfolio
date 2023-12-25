@@ -15,7 +15,7 @@ const HeroSections =() => {
                             Teks mbi foto, histori, pasion etj etj {""}
                         </p>
                     </div>
-                    <div className="btns-wrapper">
+                    <div className="btns-wrapper px-4 d-flex align-items-center">
                         <a href="/">read my blog</a>
                         <Button variant="secondary">Learn more</Button>
                     </div>

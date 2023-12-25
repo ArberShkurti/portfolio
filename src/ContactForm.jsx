@@ -24,8 +24,8 @@ const ContactForm = () => {
         </h1>
         <form ref={form} onSubmit={sendEmail}>
             <div className='email-input d-flex'>
-                <input type="email" placeholder='Your email'></input>
-                {/* <button type='submit'><RightArrowIcon height={20}/></button> */}
+                <input type="email" name="email" placeholder='Your email'></input>
+                <button type='submit' placeholder='->'></button>
             </div>
         </form>
         <p>
