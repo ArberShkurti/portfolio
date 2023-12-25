@@ -9,6 +9,7 @@ import ImagesCollections from './Components/ImagesCollections';
 import InformationSection from './Components/InformationSection';
 import ContactForm from './ContactForm';
 import FooterMenu from './Components/FooterMenu';
+import AboutSection from './Components/AboutSection';
 import React from 'react';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <HeroSections />
         <InformationSection />
         <ImagesCollections />
+        <AboutSection />
         <Container className='footer-section'>
           <Row>
             <div className='ikona'>
