@@ -25,6 +25,7 @@ function App() {
           <Row>
             <Col>
             <div className='ikona'>
+              <img src='' alt="logo canva"></img>
             </div>
             </Col>
           </Row>
