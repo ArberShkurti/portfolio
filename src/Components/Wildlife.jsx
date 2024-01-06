@@ -2,7 +2,12 @@ import React from 'react'
 
 const Wildlife = () => {
   return (
-    <div>Wildlife</div>
+    <div>
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+    </div>
   )
 }
 
