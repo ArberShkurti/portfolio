@@ -16,7 +16,7 @@ const AboutSection = () => {
                 <a href="/">Learn more</a>
             </Col>
             <Col xs={6} className='about-img-wrapper'>
-                <img alt="del?" src={`images/image-7.jpg`} />
+                <img alt="del????????" src={`../images/image-5.jpg`} />
             </Col>
         </Row>
     </Container>
