@@ -23,6 +23,7 @@ const HeroSections =() => {
 
                 <Col xs md="4">
                     <div className="img-wrapper">
+                    <img alt="del?" src="images/image-7.jpg" />
    
                     </div> 
                 </Col>
