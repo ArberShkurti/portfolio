@@ -11,12 +11,11 @@ const AboutSection = () => {
                     Pershkrime pershkrime detaje detaje detaje etj etj etj
                     Pershkrime pershkrime detaje detaje detaje etj etj etj
                     Pershkrime pershkrime detaje detaje detaje etj etj etj
-                    Pershkrime pershkrime detaje detaje detaje etj etj etj
                 </p>
                 <a href="/">Learn more</a>
             </Col>
             <Col xs={6} className='about-img-wrapper'>
-                <img alt="del????????" src={('./images/image-1.jpg/')} />
+                <img alt="del????????" src='./images/image-1.jpg/'/>
             </Col>
         </Row>
     </Container>
